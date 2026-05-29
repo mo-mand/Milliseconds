@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/__pycache__/
+**/*.pyc
+.env
+*.user
+.DS_Store
+
+# Benchmark datasets — too large for git; see each project's README for download instructions
+**/data/

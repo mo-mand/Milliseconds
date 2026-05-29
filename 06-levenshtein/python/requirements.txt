@@ -1,0 +1,2 @@
+textdistance>=4.6
+nltk>=3.8
