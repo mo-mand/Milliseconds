@@ -16,7 +16,7 @@ We rewrite the world's most popular code in **.NET** and measure exactly how muc
 
 ## 📦 What's in this repo
 
-11 standalone C# / .NET benchmark projects. Each folder contains:
+13 standalone C# / .NET 10 benchmark projects. Each folder contains:
 
 ```
 XX-name/
@@ -44,6 +44,8 @@ XX-name/
 | 09 | Date parsing · 1M timestamps | `DateTimeOffset` | dateutil | **19×** |
 | 10 | Diff algorithm · 50k pairs | Custom DP LCS | difflib | **21×** |
 | 11 | Interval tree · 1M intervals | Augmented BST | intervaltree | **31×** |
+| 12 | Image pipeline · 10k images | ImageSharp | scikit-image | **7.7×** |
+| 13 | HTML parsing · 50k documents | AngleSharp | BeautifulSoup4 | **17.4×** |
 
 ---
 
@@ -56,7 +58,7 @@ cd 06-levenshtein/dotnet
 dotnet run -c Release
 ```
 
-Requirements: **.NET 9 SDK** — [download](https://dotnet.microsoft.com/download/dotnet/9.0)
+Requirements: **.NET 10 SDK** — [download](https://dotnet.microsoft.com/download/dotnet/10.0)
 
 To run the competing implementation:
 
